@@ -11,6 +11,25 @@ a{
     text-decoration: none;
 }
 
+figure{
+    margin-bottom: 20px;
+}
+
+meter{
+    width: 400px;
+    background-color: #42704e;
+}
+
+body div{
+    margin:0 auto;
+    width: 1200px;
+}
+
+section h2{
+    color: rgb(207, 207, 207);
+    margin-bottom: 20px;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -48,12 +67,51 @@ header ul li a{
     margin: 20px 0px 20px 20px;
 }
 
+
 .sobre_mi div{
     margin-top:20px;
     display: flex;
 }
 
-.sobre_mi div p{
+.sobre_mi div div{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    font-size: 36px;
+}
+
+.fab{
     margin-left:20px;
 }
 
+.sobre_mi div p{
+    margin:0px 20px 0px 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.portafolio{
+    margin: 20px 0px 20px 20px;
+}
+
+.portafolio img {
+    width: 305px;
+    height: 200px;
+    border: solid 10px #f0f0f0;
+  }
+
+.portafolio div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.habilidades{
+    margin: 20px 0px 20px 20px;
+}
+
+@media (max-width:1000px) {
+    .sobre_mi div div{
+        left: 267px;
+    }
+}
