@@ -17,7 +17,7 @@ figure{
 
 meter{
     width: 400px;
-    background-color: #42704e;
+    border-radius: 50px;
 }
 
 body div{
@@ -98,7 +98,16 @@ header ul li a{
     width: 305px;
     height: 200px;
     border: solid 10px #f0f0f0;
-  }
+}
+
+.img_proyecto{
+    width: 305px;
+    height: 200px;
+}
+
+.img_proyecto:hover {
+    opacity: 0.5;
+}
 
 .portafolio div{
     display: flex;
@@ -110,7 +119,21 @@ header ul li a{
     margin: 20px 0px 20px 20px;
 }
 
-@media (max-width:1000px) {
+.habilidades div{
+    display: flex;
+    padding-left: 30px;
+}
+
+.habilidades li{
+    padding: 5px;
+}
+
+.habilidades meter::-webkit-meter-bar{
+    background: #f0f0f0;
+    border-radius: 50px;
+}
+
+@media (max-width:1300px) {
     .sobre_mi div div{
         left: 267px;
     }
